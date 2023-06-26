@@ -43,4 +43,8 @@ public class CartPage extends BasePage {
     public void verifyCartPageIsEmpty() {
         Assert.assertTrue(itemList.size() == 0);
     }
+
+    public void clickOnContinueShoppingButton() {
+        continueShopping.click();
+    }
 }

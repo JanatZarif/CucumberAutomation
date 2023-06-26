@@ -22,4 +22,6 @@ public class DriverUtils {
         return driver;
     }
 
+    public static void waitForPageToLoad() {
+    }
 }

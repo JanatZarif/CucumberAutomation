@@ -1,6 +1,7 @@
 package com.automation.steps;
 
 import com.automation.pages.CheckoutPage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -21,5 +22,15 @@ public class CheckoutSteps {
     @When("click on continue button")
     public void click_on_continue_button() {
         checkoutPage.clickOnContinueBtn();
+    }
+
+    @When("user click on cancel button")
+    public void userClickOnCancelButton() {
+        checkoutPage.clickOnCancelBtn();
+    }
+
+    @When("user sorting the product by price from high to low")
+    public void userSortingTheProductByPriceFromHighToLow() {
+
     }
 }

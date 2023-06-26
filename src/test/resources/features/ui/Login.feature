@@ -1,4 +1,6 @@
+@ui
 Feature: Validate login functionality
+@Smoke
 
   Scenario: Verify user can place order
     Given user open website

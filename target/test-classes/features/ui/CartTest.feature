@@ -1,5 +1,7 @@
+@ui
 Feature: Verify Cart Functionality
 
+  @Smoke
   Scenario: Verify user can add multiple item in cart
     Given user open website
     Then verify user is on login page
@@ -13,4 +15,5 @@ Feature: Verify Cart Functionality
     When user click on add to cart button of first item
     And click on cart icon
     Then verify user is on cart page
-    And verify more than one item i available on cart page
+    And verify more than one item is available on cart page
+

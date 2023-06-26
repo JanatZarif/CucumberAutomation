@@ -1,6 +1,7 @@
 package com.automation.steps;
 
 import com.automation.pages.CartPage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -20,6 +21,12 @@ public class CartSteps {
 
     @When("user click on continue shopping button")
     public void userClickOnContinueShoppingButton() {
+        cartPage.clickOnContinueShoppingButton();
+
+    }
+
+    @And("verify more than one item is available on cart page")
+    public void verifyMoreThanOneItemIsAvailableOnCartPage() {
 
     }
 }
